@@ -1,3 +1,0 @@
-﻿  PacketManager.cpp
-C:\Users\shint\OneDrive\바탕 화면\공부\개인공부\ServerStudy\IOCP\RedisManager.h(141,46): warning C4806: '==': 안전하지 않은 연산입니다. 'bool' 형식의 값('int' 형식으로 확장)이 주어진 상수와 같을 수 없습니다.
-  IOCP.vcxproj -> C:\Users\shint\OneDrive\바탕 화면\공부\개인공부\ServerStudy\IOCP\x64\Debug\IOCP.exe

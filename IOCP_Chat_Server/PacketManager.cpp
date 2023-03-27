@@ -33,7 +33,7 @@ void PacketManager::ClearConnectionInfo(INT32 clientIndex_)
 {
 	auto pReqUser = mUserManager->GetUserByConnIdx(clientIndex_);
 
-	if (pReqUser->GetDomainState() != User::DOMAIN_STATE::ROOM)
+	if (pReqUser->GetDomainState() == User::DOMAIN_STATE::ROOM)
 	{
 		auto roomNum = pReqUser->GetCurrentRoom();
 		mRoomManager->LeaveUser(roomNum, pReqUser);
@@ -243,7 +243,10 @@ void PacketManager::ProcessLogoutDBResult(UINT32 clientIndex_, UINT16 packetSize
 			std::cout << "User " << userId_ << " Logout Success!\n";
 		}
 		else
+		{
+			std::cout << "User is Not logged in\n";
 			logoutResPacket.Result = (UINT16)ERROR_CODE::LOGIN_USER_NOT_FIND;
+		}
 	}
 
 	SendPacketFunc(clientIndex_, sizeof(LOGOUT_RESPONSE_PACKET), (char*)&logoutResPacket);
