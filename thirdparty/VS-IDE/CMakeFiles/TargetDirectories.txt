@@ -1,0 +1,4 @@
+C:/Users/shint/OneDrive/바탕 화면/공부/개인공부/ServerStudy/IOCP/thirdparty/VS-IDE/CMakeFiles/hiredis.dir
+C:/Users/shint/OneDrive/바탕 화면/공부/개인공부/ServerStudy/IOCP/thirdparty/VS-IDE/CMakeFiles/INSTALL.dir
+C:/Users/shint/OneDrive/바탕 화면/공부/개인공부/ServerStudy/IOCP/thirdparty/VS-IDE/CMakeFiles/ALL_BUILD.dir
+C:/Users/shint/OneDrive/바탕 화면/공부/개인공부/ServerStudy/IOCP/thirdparty/VS-IDE/CMakeFiles/ZERO_CHECK.dir
